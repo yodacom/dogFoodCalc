@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog food Calc</title>
+    <script src="dogFoodCalc.js"></script>
+    <link rel="stylesheet" href="dogFoodCalc.css">
+</head>
+<div class="container">    
+<h2>How much Dog food does my dog need?</h2>
+    <h3> Choose the size of your dog </h3>
+    <h3><form class="form" name="dogSizeForm" method="post" action="" onsubmit="return dogFoodCalc(event)">
+        <input type="radio" name="dogsize" value="Large"> Large <br>
+        <input type="radio" name="dogsize" value="Medium"> Medium <br>
+        <input type="radio" name="dogsize" value="Small"> Small <br><br>
+        <input type="submit" value="Submit">
+      </form></h3>
+<h3><div id="dogFoodAmt">
+  </div></h3>
+</div>
+
+</body>
+</html>
+
+
+
